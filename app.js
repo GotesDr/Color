@@ -5,6 +5,10 @@ function changeColor() {
 
     document.body.style.background = `rgb(${r}, ${g}, ${b})`;
 }
+function returnColor() {
+    document.body.style.background = `rgb(255, 255, 255)`;
+
+}
 
 function randomNumber(min, max) {
     return Math.floor((Math.random() * (max - min)) + min);
